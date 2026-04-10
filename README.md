@@ -8,7 +8,10 @@ Testing Local LLMs by their Chess-playing proficiency through tool use.
 > * **`INVALID_FORMAT`**: The model returned a response that could not be parsed as a move (e.g., conversational text or incorrect notation).
 > * **`LLM_ERROR`**: The model failed to provide a result due to technical limits, such as getting stuck in an infinite loop or running out of context.
 
-## Current Rankings
+## Puzzles
+> Coming soon!
+
+## Self-Play
 | Model Name        |   Total Games | Game Completion Rate   | Illegal Move Rate   |   Avg. Tokens/Move | W / D / L    | Note |
 |:------------------|--------------:|:----------------------|:--------------------|-------------------:|:-------------|-|
 | [gemma-4-E4B-it-Q4_K_M](https://github.com/ChefZander/chessbench/blob/main/gemma-4-E4B-it-Q4_K_M_summary.md) | 69 | 2.9% | 0.9% | 1422.5 | 0 / 68 / 1 | I'm very impressed, even though play is honestly very bad. |
