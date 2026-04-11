@@ -9,7 +9,7 @@ from openai import OpenAI
 # --- CONFIGURATION ---
 LLM_API_URL = "http://localhost:8080/v1"
 LLM_API_KEY = "no-key-required"
-MODEL_NAME = "MODEL_NAME_HERE" # find using http://localhost:8080/v1/models
+MODEL_NAME = ""
 NUM_PUZZLES_TO_TEST = 999999  # Adjust based on your time constraints
 LOCAL_DATASET_PATH = "./train-00000-of-00003.parquet" # https://huggingface.co/datasets/Lichess/chess-puzzles/blob/main/data/train-00000-of-00003.parquet
 
@@ -133,7 +133,8 @@ def run_benchmark():
                 "tokens": tokens,
                 "history": history
             })
-            time.sleep(0.5)
+            #time.sleep(0.5)
+            print(f"{row['PuzzleId']} - {'✅' if success else '❌'} - Tokens: {tokens} - Rating: {row['Rating']}                          ")
         except KeyboardInterrupt:
             print("\nBenchmark interrupted by user.")
             break
