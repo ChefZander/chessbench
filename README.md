@@ -15,6 +15,7 @@ Testing Local LLMs by their Chess-playing proficiency through tool use.
 | [Llama-3.2-1B-Instruct-Q4_K_M](https://github.com/ChefZander/chessbench/blob/main/puzzles/Llama-3.2-1B-Instruct-Q4_K_M_puzzle_bench.md) | 6162 | 3.1% | 1046 Elo |
 | [nanbeige4.1-3b-q4_k_m](https://github.com/ChefZander/chessbench/blob/main/puzzles/nanbeige4.1-3b-q4_k_m_puzzle_bench.md) | 93 | 12.9% | 1044 Elo |
 | [gemma-4-E4B-it-Q4_K_M](https://github.com/ChefZander/chessbench/blob/main/puzzles/gemma-4-E4B-it-Q4_K_M_puzzle_bench.md) | 1286 | 9.9% | 1044 Elo |
+| [gemma-4-E4B-it-Q4_K_M-no-reasoning](https://github.com/ChefZander/chessbench/blob/main/puzzles/gemma-4-E4B-it-Q4_K_M-no-reasoning_puzzle_bench.md) | 256 | 11.7% | 945 Elo |
 
 ## Self-Play
 | Model Name        |   Total Games | Game Completion Rate   | Illegal Move Rate   |   Avg. Tokens/Move | W / D / L    | Note |
