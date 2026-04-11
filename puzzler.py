@@ -13,7 +13,7 @@ MODEL_NAME = ""
 NUM_PUZZLES_TO_TEST = 999999  # Adjust based on your time constraints
 LOCAL_DATASET_PATH = "./train-00000-of-00003.parquet" # https://huggingface.co/datasets/Lichess/chess-puzzles/blob/main/data/train-00000-of-00003.parquet
 
-REASONING_DISABLED = True
+REASONING_DISABLED = False
 if REASONING_DISABLED:
     print("⚠️  Reasoning is disabled for this benchmark. The model will not be able to explain its moves or thought process. This may lead to lower performance, but will test the model's raw move generation capabilities.")
 
